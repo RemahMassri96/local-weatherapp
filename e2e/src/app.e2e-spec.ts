@@ -11,7 +11,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('LocalCast Weather'); 
+    expect(page.getTitleText()).toEqual('LocalCast Weather');
   });
 
   afterEach(async () => {
